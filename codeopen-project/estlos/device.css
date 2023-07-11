@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+nav {
+    display: none;
+}
+
+section.header, div.tree-jobs-background-2, div.contact-area, div.recent-jobs {
+    background-color: rgb(0, 0, 43);
+}
+
+section.header h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 3.5rem;
+    text-align: start;
+    
+}
+
+section.header p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2.3rem;
+    padding: 3rem;
+    color: white;
+}
+
+div.tree-jobs-text {
+    width: 85vw;
+    margin: auto;
+    text-align: center;
+}
+
+div.tree-jobs-text h1, div.pricing-text h1{
+    font-size: 4rem;
+    margin-top:11rem;
+    margin-bottom: 5rem;
+}
+
+div.tree-jobs-text p, div.pricing-text p {
+    font-size: 2.3rem;
+    padding: 1rem;
+}
+
+div.tree-jobs-text p:nth-child(4) {
+    margin-bottom: 10rem;
+}
+
+
+
+article.tree-jobs-recently {
+    color: white;
+    width: 85vw;
+    margin: auto;
+}
+
+article.tree-jobs-recently h1 {
+    font-size: 4rem;
+    padding: 8rem 0 3rem 0;
+}
+
+article.tree-jobs-recently p {
+    font-size: 2.3rem;
+    margin-bottom: 10rem;
+}
+
+.article-text h3 {
+    font-size: 3rem;
+    text-indent: 5rem;
+    margin: 3rem 0;
+}
+
+.article-text p {
+    font-size: 2.3rem;
+}
+
+#margin {
+    padding-bottom: 10rem;
+}
+
+aside    {
+    display: block;
+    margin: auto;
+    width: 85vw;
+}
+
+aside h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+aside p {
+    font-size: 2.3rem;
+    margin-bottom: 10rem;
+}
+
+aside div.image {
+    width: 100%;
+}
+
+aside div.image img {
+    display: block;
+    width: inherit;
+    margin-top: 3rem;                   
+}
+
+aside img:hover {
+    transform: translate(0%, 3%);
+    transition-duration: .5s;
+}
+
+aside div.image img:nth-child(6) {
+    margin-bottom: 8rem;
+}
+
+
+div.recent-jobs-text {
+    width: 85vw;
+    margin: auto;
+    color: white;
+}
+
+div.recent-jobs-text h1, div.contact-text h1 {
+    font-size: 4rem;
+    padding:8rem 0 5rem 0;
+
+}
+
+div.recent-jobs-text h3 {
+    font-size: 3rem;
+    text-indent: 5rem;
+    margin: 3rem 0;
+}
+
+div.recent-jobs-text p {
+    font-size: 2.3rem;
+    margin: 2rem 0rem 8rem 0rem;
+}
+
+div.pricing-text {
+    width: 85vw;
+    margin: auto;
+    text-align: center;
+}
+
+
+table {
+    margin: 0px 30px 8rem 30px;
+    width: 700px;
+    border-collapse: collapse;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+table caption {
+    font-size: 2rem;
+    text-align: left;
+    font-style: italic;
+    padding: 1rem;
+}
+
+table th, table td {
+    font-size: 2.3rem;
+    padding: 5px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+table th {
+    background-color: rgb(212, 212, 212);
+    text-align: left;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+div.contact-text {
+    color: white;
+    margin: auto;
+    width: 85vw;
+}
+
+div.contact-text p {
+    font-size: 2.3rem;
+    margin-bottom: 6rem;
+}
+
+form {
+    width: 85vw;
+    margin: auto;
+    color: white;
+}
+
+form input {
+    width: 85vw;
+    height: 64px;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    padding-bottom:10px;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+form p {
+    font-size: 4rem;
+    padding: 10px 0px;
+}
+
+input[type=submit] {
+    display: block;
+    margin:3rem 0rem 10rem 0rem;
+    width: 250px;
+    background-color: rgb(0, 0, 43);
+    color: white;
+    border: 5px solid white;
+}
+
+input[type=submit]:hover {
+  background-color:white;   
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+footer {
+    display: flex;
+    font-size: 3rem;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+
